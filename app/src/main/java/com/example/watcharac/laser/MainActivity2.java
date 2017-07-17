@@ -14,7 +14,7 @@ public class MainActivity2 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final EditText ET = (EditText) findViewById(R.id.editText_phone);
+        final EditText ET = (EditText) findViewById(R.id.editText_laser);
         ET.addTextChangedListener(new PhoneNumberFormattingTextWatcher());
 
         ET.addTextChangedListener(new PhoneNumberFormattingTextWatcher() {

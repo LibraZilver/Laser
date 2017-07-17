@@ -8,8 +8,7 @@
 
 
     <EditText
-        android:inputType="textNoSuggestions"
-        android:id="@+id/editText_phone"
+        android:id="@+id/editText_laser"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:lines="1"
